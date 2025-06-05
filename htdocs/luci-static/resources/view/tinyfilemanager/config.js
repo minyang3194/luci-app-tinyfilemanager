@@ -120,7 +120,7 @@ return view.extend({
 		o.rmempty = false;
 
 		o = s.option(form.Value, 'max_upload_size', _('Max upload size (MBytes)'));
-		o.datatype = "and(uinteger,max(2048))";
+		o.datatype = "and(uinteger,max(10240))";
 		o.placeholder = '3';
 		o.default = '25';
 		o.rmempty = false;
